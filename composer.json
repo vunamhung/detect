@@ -1,0 +1,35 @@
+{
+	"name": "vunamhung/detect",
+	"description": "This is a toolkit for WordPress developer.",
+	"keywords": [
+		"wordpress",
+		"toolkit"
+	],
+	"homepage": "https://github.com/vunamhung/detect",
+	"license": "GPL-3.0+",
+	"support": {
+		"issues": "https://github.com/vunamhung/detect/issues",
+		"source": "https://github.com/vunamhung/detect"
+	},
+	"authors": [
+		{
+			"name": "Vu Nam Hung",
+			"email": "vunamhung@gmail.com",
+			"homepage": "https://github.com/vunamhung/",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+		"mobiledetect/mobiledetectlib": "^2.8",
+		"vunamhung/wptoolkit": "^0.9.10"
+	},
+	"autoload": {
+		"files": [
+			"helpers.php"
+		],
+		"psr-4": {
+			"vnh\\": "."
+		}
+	}
+}
