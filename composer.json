@@ -21,12 +21,11 @@
 	],
 	"require": {
 		"php": ">=5.6.0",
-		"mobiledetect/mobiledetectlib": "^2.8",
-		"vunamhung/wptoolkit": "^0.9.10"
+		"mobiledetect/mobiledetectlib": "^2.8"
 	},
 	"autoload": {
 		"files": [
-			"helpers.php"
+			"bootstrap.php"
 		],
 		"psr-4": {
 			"vnh\\": "."
