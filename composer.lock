@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "972d9073d93240ce45137fecb9332afc",
+    "content-hash": "b0c345280f4c87563d778ec1cc34d75e",
     "packages": [
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -57,57 +57,6 @@
                 "php mobile detect"
             ],
             "time": "2019-09-18T18:44:20+00:00"
-        },
-        {
-            "name": "vunamhung/wptoolkit",
-            "version": "0.9.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vunamhung/wptoolkit.git",
-                "reference": "99f771b8dec40837736d040b2d2a724fcc60d8ae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vunamhung/wptoolkit/zipball/99f771b8dec40837736d040b2d2a724fcc60d8ae",
-                "reference": "99f771b8dec40837736d040b2d2a724fcc60d8ae",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "bootstrap.php",
-                    "helpers/global.php",
-                    "helpers/general.php",
-                    "helpers/array.php",
-                    "helpers/woo.php",
-                    "helpers/http.php"
-                ],
-                "psr-4": {
-                    "vnh\\": "."
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Vu Nam Hung",
-                    "email": "vunamhung@gmail.com",
-                    "homepage": "https://github.com/vunamhung/",
-                    "role": "Lead Developer"
-                }
-            ],
-            "description": "This is a toolkit for WordPress developer.",
-            "homepage": "https://github.com/vunamhung/wptoolkit",
-            "keywords": [
-                "toolkit",
-                "wordpress"
-            ],
-            "time": "2020-02-23T04:30:38+00:00"
         }
     ],
     "packages-dev": [],
